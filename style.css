@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+body{
+    font-family: 'Belanosima', sans-serif; ;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-color: darkblue;
+    color: whitesmoke;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+}
+.logo
+{
+    font-size: 2em;
+    text-shadow: 2px -2px 0 whitesmoke,
+    2px 2px 0 whitesmoke,
+    -2px 2px 0 whitesmoke,
+    2px 2px 0 whitesmoke;
+}
+
+.button{
+    background-color: darkturquoise;
+    color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px 15px;
+    font-family: 700;
+}
+#input{
+    width: 300px;
+    text-align: center;
+    font-size: 2em;
+    height: 2em;
+    margin: 30px;
+}
+#input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.submit{
+    margin-left: 100px;
+    font-size: xx-large;
+}
+h1{
+    font-size: 3em;
+}
+#message{
+    display: none;
+    color: bisque;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px 15px;
+
+}
